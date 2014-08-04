@@ -35,15 +35,15 @@ extern CGFloat const MRoundedButtonMaxValue;
 @interface MRoundedButton : UIControl
 
 @property (readonly, nonatomic) MRoundedButtonStyle         mr_buttonStyle;
-@property (nonatomic, assign)   CGFloat                     cornerRadius;               UI_APPEARANCE_SELECTOR
-@property (nonatomic, assign)   CGFloat                     borderWidth;                UI_APPEARANCE_SELECTOR
-@property (nonatomic, strong)   UIColor                     *borderColor;               UI_APPEARANCE_SELECTOR
-@property (nonatomic, strong)   UIColor                     *contentColor;              UI_APPEARANCE_SELECTOR
-@property (nonatomic, strong)   UIColor                     *foregroundColor;           UI_APPEARANCE_SELECTOR
-@property (nonatomic, strong)   UIColor                     *borderAnimateToColor;      UI_APPEARANCE_SELECTOR
-@property (nonatomic, strong)   UIColor                     *contentAnimateToColor;     UI_APPEARANCE_SELECTOR
-@property (nonatomic, strong)   UIColor                     *foregroundAnimateToColor;  UI_APPEARANCE_SELECTOR
-@property (nonatomic, assign)   BOOL                        restoreSelectedState;       UI_APPEARANCE_SELECTOR
+@property (nonatomic, assign)   CGFloat                     UI_APPEARANCE_SELECTOR cornerRadius;
+@property (nonatomic, assign)   CGFloat                     UI_APPEARANCE_SELECTOR borderWidth;
+@property (nonatomic, strong)   UIColor                     UI_APPEARANCE_SELECTOR *borderColor;
+@property (nonatomic, strong)   UIColor                     UI_APPEARANCE_SELECTOR *contentColor;
+@property (nonatomic, strong)   UIColor                     UI_APPEARANCE_SELECTOR *foregroundColor;
+@property (nonatomic, strong)   UIColor                     UI_APPEARANCE_SELECTOR *borderAnimateToColor;
+@property (nonatomic, strong)   UIColor                     UI_APPEARANCE_SELECTOR *contentAnimateToColor;
+@property (nonatomic, strong)   UIColor                     UI_APPEARANCE_SELECTOR *foregroundAnimateToColor;
+@property (nonatomic, assign)   BOOL                        UI_APPEARANCE_SELECTOR restoreSelectedState;
 
 @property (nonatomic, weak)     UILabel                     *textLabel;
 @property (nonatomic, weak)     UILabel                     *detailTextLabel;
